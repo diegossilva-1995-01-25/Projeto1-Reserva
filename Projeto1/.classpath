@@ -10,6 +10,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
-	<classpathentry kind="lib" path="J:/FATEC/5 Semestre/Teste de Software/Reserva/Projeto1/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="mysql-connector-java-5.1.12-bin.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
