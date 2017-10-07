@@ -23,7 +23,8 @@ public class EmpresaDAO {
 			codigoRetorno = ps.executeUpdate();
 			ps.close();
 		} catch (SQLException e) {
-			throw new RuntimeException(e);
+			//throw new RuntimeException(e); // Isto tem testabilidade ruim (complexo)
+			System.out.println("erro = " + e.getMessage());
 		}
 		return codigoRetorno;
 	}
